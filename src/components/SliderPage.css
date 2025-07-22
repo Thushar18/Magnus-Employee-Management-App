@@ -1,0 +1,54 @@
+/* src/components/SliderPage.css */
+
+.slider-page {
+  padding: 20px;
+}
+
+.page-header h2 {
+  margin-bottom: 30px;
+  font-size: 24px;
+  color: #333;
+}
+
+.slider-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.slider-input {
+  width: 80%;
+  max-width: 500px;
+  height: 8px;
+  border-radius: 5px;
+  background: #ddd;
+  outline: none;
+  cursor: pointer;
+}
+
+.slider-input::-webkit-slider-thumb {
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #007bff;
+  cursor: pointer;
+  box-shadow: 0 0 2px rgba(0,0,0,0.4);
+}
+
+.slider-input::-moz-range-thumb {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #007bff;
+  cursor: pointer;
+  border: none;
+  box-shadow: 0 0 2px rgba(0,0,0,0.4);
+}
+
+.current-value {
+  font-size: 16px;
+  color: #333;
+  font-weight: bold;
+}

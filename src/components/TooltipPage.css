@@ -1,0 +1,26 @@
+/* src/components/TooltipPage.css */
+
+.tooltip-page {
+  padding: 20px;
+}
+
+.page-header h2 {
+  margin-bottom: 30px;
+  font-size: 28px;
+  color: #333;
+}
+
+.tooltip-section {
+  text-align: center;
+}
+
+.tooltip-message {
+  display: none;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.tooltip-message.clicked {
+  display: block;
+  opacity: 1;
+}

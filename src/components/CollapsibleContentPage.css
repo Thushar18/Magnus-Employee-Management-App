@@ -1,0 +1,101 @@
+/* src/components/CollapsibleContentPage.css */
+.collapsible-content-page {
+  padding: 20px;
+}
+
+.page-header h2 {
+  margin: 0 0 10px 0;
+  font-size: 24px;
+  color: #333;
+}
+
+.tabs-container {
+  margin-top: 20px;
+}
+
+.tabs-header {
+  display: flex;
+  gap: 10px;
+  border-bottom: 2px solid #ccc;
+}
+
+.tab {
+  padding: 8px 16px;
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+  color: #333;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.tab.active {
+  background-color: #007bff;
+  color: white;
+  border-radius: 4px 4px 0 0;
+}
+
+.tabs-content {
+  display: flex;
+  min-height: 200px;
+  border: 1px solid #ddd;
+  border-top: none;
+  background-color: #f9f9f9;
+  border-radius: 0 0 4px 4px;
+  overflow: hidden;
+}
+
+.menu-side {
+  flex: 1;
+  padding: 20px;
+  border-right: 1px solid #ddd;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.content-side {
+  flex: 1;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 15px;
+  color: #333;
+  gap: 15px;
+}
+
+/* Collapsible Section Styles */
+.collapsible-section {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.collapsible-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.collapsible-header:hover {
+  background-color: #0056b3;
+}
+
+.toggle-icon {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.collapsible-body {
+  padding: 15px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-top: none;
+  border-radius: 0 0 4px 4px;
+}
