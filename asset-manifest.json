@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Magnus-Employee-Management-App/static/css/main.295206e0.css",
+    "main.js": "/Magnus-Employee-Management-App/static/js/main.b0fa8300.js",
+    "index.html": "/Magnus-Employee-Management-App/index.html",
+    "main.295206e0.css.map": "/Magnus-Employee-Management-App/static/css/main.295206e0.css.map",
+    "main.b0fa8300.js.map": "/Magnus-Employee-Management-App/static/js/main.b0fa8300.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.295206e0.css",
+    "static/js/main.b0fa8300.js"
+  ]
+}
