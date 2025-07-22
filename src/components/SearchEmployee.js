@@ -1,4 +1,4 @@
-import React, { useState, useContext } from 'react';
+import { useState, useContext } from 'react';
 import './SearchEmployee.css';
 import { EmployeeContext } from '../context/EmployeeContext';
 import CreateEmployee from './CreateEmployee';

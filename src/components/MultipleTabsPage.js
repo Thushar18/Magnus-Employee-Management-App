@@ -1,5 +1,5 @@
 // src/components/MultipleTabsPage.js
-import React, { useState } from 'react';
+import { useState } from 'react';
 import './MultipleTabsPage.css';
 
 const MultipleTabsPage = () => {

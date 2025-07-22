@@ -1,5 +1,5 @@
 // src/components/CollapsibleContentPage.js
-import React, { useState } from 'react';
+import { useState } from 'react';
 import './CollapsibleContentPage.css'; // Make sure styles are applied
 
 const CollapsibleContentPage = () => {

@@ -1,5 +1,5 @@
 // src/components/TooltipPage.js
-import React, { useState } from 'react';
+import { useState } from 'react';
 import './TooltipPage.css'; // Make sure styles are applied
 
 const TooltipPage = () => {

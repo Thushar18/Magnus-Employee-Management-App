@@ -1,5 +1,5 @@
 // src/components/LinksPage.js
-import React, { useState } from 'react';
+import { useState } from 'react';
 import './LinksPage.css';
 
 const LinksPage = () => {

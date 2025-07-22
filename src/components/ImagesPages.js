@@ -1,5 +1,5 @@
 // src/components/ImagesPage.js
-import React, { useState } from 'react';
+import { useState } from 'react';
 import './ImagesPage.css'; // Import external CSS
 
 const ImagesPage = () => {

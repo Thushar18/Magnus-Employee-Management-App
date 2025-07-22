@@ -1,5 +1,5 @@
 /* global alert, confirm, prompt */
-import React,{useState}from 'react';
+import {useState}from 'react';
 import './PopupsPage.css';
 
 const PopupsPage = () => {

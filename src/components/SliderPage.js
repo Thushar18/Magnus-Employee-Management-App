@@ -1,5 +1,5 @@
 // src/components/SliderPage.js
-import React, { useState } from 'react';
+import { useState } from 'react';
 import './SliderPage.css'; // Make sure styles are applied
 
 const SliderPage = () => {
